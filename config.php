@@ -4,9 +4,9 @@
 $dbms = 'mysqli';
 $dbhost = 'tunnel.pagodabox.com';
 $dbport = '3306';
-$dbname = 'forums';
-$dbuser = 'hester';
-$dbpasswd = 'oEN7Yg5D';
+$dbname = $_ENV['DB1_NAME'];
+$dbuser = $_ENV['DB1_USER'];
+$dbpasswd = $_ENV['DB1_PASS'];
 $table_prefix = 'phpbb_';
 $acm_type = 'file';
 $load_extensions = '';
